@@ -1,0 +1,14 @@
+{
+  "name": "node-typescript-executable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "ts-exec": "./index.cjs"
+  },
+  "repository": "git@github.com:siri404-gh/node-typescript-executable.git",
+  "author": "Siri <sreeram.com@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4"
+  }
+}
