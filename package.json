@@ -5,10 +5,17 @@
   "bin": {
     "ts-exec": "./index.cjs"
   },
+  "scripts": {
+    "test": "ts-exec"
+  },
   "repository": "git@github.com:siri404-gh/node-typescript-executable.git",
   "author": "Siri <sreeram.com@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "chalk": "4"
+    "chalk": "4",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
   }
 }
